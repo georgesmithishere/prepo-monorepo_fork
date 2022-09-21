@@ -33,7 +33,7 @@
     "clone-deep": "4.0.1",
     "configcat-js-ssr": "3.10.0",
     "d3": "7.3.0",
-    "date-fns": "2.28.0",
+    "date-fns": "2.29.3",
     "deepmerge": "4.2.2",
     "ethereum-multicall": "2.10.0",
     "ethers": "5.6.9",

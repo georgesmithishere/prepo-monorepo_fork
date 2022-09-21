@@ -101,7 +101,7 @@ const Heading: React.FC<Props> = ({
 
   return (
     <HeadingComponent color={theme.color[color]} textAlign={align} className={className}>
-      {children}
+      {children}11
     </HeadingComponent>
   )
 }

@@ -30,6 +30,7 @@ jobs:
 
       steps:
       - name: Generate artifact key
+        if: github.event.pull_request.merged == true
         id: set-artifact-key
         # Replace possible / on the string to -
         run: |
@@ -41,7 +42,6 @@ jobs:
 
 
   checkout-repository:
-    if: github.event.pull_request.merged == true
     name: Checkout repository
     needs: [check-merge, generate-artifact-key]
     runs-on: ubuntu-latest
@@ -51,6 +51,7 @@ jobs:
       GITHUB_CONTEXT: ${{ toJson(github) }}
     steps:
     - name: 'Checkout'
+      if: github.event.pull_request.merged == true
       uses: actions/checkout@v2
       with:
         fetch-depth: 0

@@ -17,7 +17,6 @@ jobs:
     # Helps us to check if a pull request is merged and not closed
     - name: Check if pull request is merged
       id: set-branch-name
-      if: github.event.pull_request.merged == 'true'
       run: |
         echo Merged pull request
 
@@ -43,6 +42,7 @@ jobs:
 
   checkout-repository:
     name: Checkout repository
+    if: github.event.pull_request.merged == true
     needs: [check-merge, generate-artifact-key]
     runs-on: ubuntu-latest
     outputs:

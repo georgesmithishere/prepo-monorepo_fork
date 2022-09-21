@@ -73,7 +73,7 @@ const Item: React.FC<{ network: Network; selected: boolean }> = ({
       variant="text-medium-md"
       display="flex"
       alignItems="center"
-      gap={20}
+      gap={30}
       color={supported ? color : 'neutral5'}
     >
       <Icon name={iconName} width={iconSize} height={iconSize} />

@@ -44,14 +44,14 @@ Then in another run `yarn t`
 
 Running `yarn hardhat node` without the `--no-deploy` tag will also execute everything defined in the `deploy` folder.
 
-It is advised to instead run deployments separately using `yarn hardhat deploy` with specific `--tags` to ensure you only  
+It is advised to instead run deployments separately using `yarn hardhat deploy` with specific `--tags` to ensure you only
 deploy what you need, e.g. `yarn hardhat deploy --network 'localhost' --tags 'Collateral'`
 
-Because our scripts use `hardhat-upgrades` to deploy our upgradeable contracts, they are not managed by `hardhat-deploy`.  
+Because our scripts use `hardhat-upgrades` to deploy our upgradeable contracts, they are not managed by `hardhat-deploy`.
 Upgradeable deployment addresses are kept track of separately in a local `.env` file.
 
-`hardhat-deploy` will automatically call deployment scripts for any dependencies of a specified `tag`.  
-Per the tag dependency tree below, specifying `PrePOMarketFactory` under `--tags`, will deploy the entire PrePO core stack.  
+`hardhat-deploy` will automatically call deployment scripts for any dependencies of a specified `tag`.
+Per the tag dependency tree below, specifying `PrePOMarketFactory` under `--tags`, will deploy the entire PrePO core stack.
 A mock strategy can be deployed as well for testing purposes with the `MockStrategy` tag.
 
      CollateralDepositRecord   AccountAccessController
@@ -86,3 +86,4 @@ Add your Etherscan API key using ETHERSCAN_API_KEY in `.env`, then run:
 `yarn hardhat verify <contractAddress> --network <networkName> "PARAM 1" "PARAM 2"...`
 
 Polygonscan and Arbiscan are also recognized via POLYGONSCAN_API_KEY and ARBISCAN_API_KEY in `.env`
+x

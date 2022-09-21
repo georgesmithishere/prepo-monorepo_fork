@@ -63,7 +63,6 @@ const Accordion: React.FC<Props> = ({
   children,
   renderIcon,
 }) => {
-  console.log(1)
   const [active, setActive] = useState<boolean>(visible)
 
   const onActive = (): void => {

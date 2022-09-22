@@ -1,4 +1,3 @@
-import { withSentry, captureException } from '@sentry/nextjs'
 import { NextApiRequest, NextApiResponse } from 'next'
 import url from 'url'
 
@@ -28,11 +27,10 @@ const handler = async (req: NextApiRequest, res: NextApiResponse): Promise<void>
     const response = await postRequestToSentry.json()
     res.status(200).json(response)
   } catch (e) {
-    captureException(e)
     res.status(400).json({ status: 'invalid request' })
   } finally {
     res.end()
   }
 }
 
-export default withSentry(handler)
+export default handler

@@ -12,6 +12,7 @@ export function formatPercent(decimal: number, suffix = true): string {
 export function percentToFloat(percentString: string): number {
   const valueString = percentString.replace('%', '')
   const value = parseFloat(valueString)
+  console.log(12)
   return value / 100
 }
 

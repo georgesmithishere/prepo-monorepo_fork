@@ -42,6 +42,7 @@ ErrorPage.getInitialProps = async (props: NextPageContext): Promise<ErrorProps> 
     )
   }
 
+  console.log(12)
   errorInitialProps.isReadyToRender = true
 
   if (res?.statusCode === 404) {

@@ -39,9 +39,6 @@ const nextConfig = {
 
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options.
-const sentryWebpackPluginOptions = {
-  authToken: process.env.SENTRY_AUTH_TOKEN,
-  silent: true,
-}
 
-module.exports = withTM(withSentryConfig(nextConfig, sentryWebpackPluginOptions))
+
+module.exports = withTM(nextConfig)

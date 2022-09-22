@@ -2,7 +2,6 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const root = process.cwd()
-const { withSentryConfig } = require('@sentry/nextjs')
 const path = require('path')
 const withTM = require('next-transpile-modules')(['prepo-constants', 'prepo-utils', 'prepo-stores'])
 const { locales, sourceLocale } = require('./lingui.config.js')

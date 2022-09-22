@@ -1,8 +1,6 @@
 /* eslint-disable no-console */
 import NextErrorComponent, { ErrorProps as NextErrorProps } from 'next/error'
 
-import * as Sentry from '@sentry/nextjs'
-
 import { NextPageContext } from 'next'
 
 export type ErrorPageProps = {
@@ -28,10 +26,6 @@ const ErrorPage = (props: ErrorPageProps): JSX.Element => {
     console.error(err)
   }
 
-  if (!isReadyToRender && err) {
-    Sentry.captureException(err)
-  }
-
   return children ?? <NextErrorComponent statusCode={statusCode} />
 }
 
@@ -48,17 +42,6 @@ ErrorPage.getInitialProps = async (props: NextPageContext): Promise<ErrorProps> 
   if (res?.statusCode === 404) {
     return { statusCode: 404, isReadyToRender: true }
   }
-
-  if (err && isProduction) {
-    Sentry.captureException(err)
-    await Sentry.flush(2000)
-    return errorInitialProps
-  }
-
-  if (isProduction) {
-    Sentry.captureException(new Error(`_error.js getInitialProps missing data at path: ${asPath}`))
-  }
-  await Sentry.flush(2000)
 
   return errorInitialProps
 }

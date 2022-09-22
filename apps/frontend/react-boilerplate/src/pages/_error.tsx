@@ -24,6 +24,7 @@ const ErrorPage = (props: ErrorPageProps): JSX.Element => {
       'ErrorPage - Unexpected error caught, it was captured and sent to Sentry. Error details:'
     )
     console.error(err)
+    console.log(123)
   }
 
   return children ?? <NextErrorComponent statusCode={statusCode} />

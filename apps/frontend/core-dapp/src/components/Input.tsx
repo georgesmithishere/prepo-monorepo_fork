@@ -184,7 +184,6 @@ const Input: React.ForwardRefRenderFunction<InputRef, Props> = (
       onBlur(e)
     }
   }
-  console.log(11)
 
   return (
     <Wrapper className={className}>

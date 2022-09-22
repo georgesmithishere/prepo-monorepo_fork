@@ -8,6 +8,7 @@ export class BrowserStore {
   root: RootStore<unknown>
   networkIsHealthy = true
   tabIsOpen = true
+
   tabLastActive = new Date()
 
   constructor(root: RootStore<unknown>) {

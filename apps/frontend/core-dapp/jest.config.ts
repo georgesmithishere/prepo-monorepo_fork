@@ -6,7 +6,6 @@ import base from 'config/jest-frontend'
 import path from 'path'
 
 const fromRoot = (directory: string): string => path.join(__dirname, directory)
-
 process.env.TZ = 'UTC'
 
 const config: Config.InitialOptions = {

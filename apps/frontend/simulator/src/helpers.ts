@@ -6,6 +6,7 @@ export function formatPercent(decimal: number, suffix = true): string {
   if (decimal > 0.1 - DELTA || decimal < -0.1 + DELTA) {
     return `${(decimal * 100).toFixed(0)}${suffix ? '%' : ''}`
   }
+  console.log(12)
   return `${(decimal * 100).toFixed(1)}${suffix ? '%' : ''}`
 }
 

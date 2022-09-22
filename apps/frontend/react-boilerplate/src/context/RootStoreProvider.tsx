@@ -5,7 +5,6 @@ const StoreContext = createContext<RootStore | undefined>(undefined)
 
 // local module level variable - holds singleton store
 let store: RootStore
-
 // function to initialize the store
 function initializeStore(): RootStore {
   const localStore = store ?? new RootStore()

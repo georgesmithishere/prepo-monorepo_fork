@@ -82,7 +82,6 @@ const Accordion: React.FC<Props> = ({
       <ArrowIcon color="primaryLight" $active={active} name="sort-down" width="13" height="8" />
     )
   }, [active, hideIcon, renderIcon])
-  console.log(111)
   return (
     <div className={className}>
       <Title onClick={onActive} $active={active} $hideIcon={hideIcon}>

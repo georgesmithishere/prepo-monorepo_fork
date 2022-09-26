@@ -12,7 +12,7 @@ This repository contains all the smart contracts related to the PPO token.
 - indent-rainbow (oderwat)
 
 ### Install
-
+asd123
 Run `yarn`
 
 ### Commands
@@ -44,7 +44,7 @@ Then in another run `yarn t`
 
 Running `yarn hardhat node` without the `--no-deploy` tag will also execute everything defined in the `deploy` folder.
 
-It is advised to instead run deployments separately using `yarn hardhat deploy` with specific `--tags` to ensure you only  
+It is advised to instead run deployments separately using `yarn hardhat deploy` with specific `--tags` to ensure you only
 deploy what you need, e.g. `yarn hardhat deploy --network 'localhost' --tags 'PPO`
 
 ### Deploy to Network

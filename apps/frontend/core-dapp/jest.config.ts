@@ -7,7 +7,7 @@ import path from 'path'
 
 const fromRoot = (directory: string): string => path.join(__dirname, directory)
 process.env.TZ = 'UTC'
-console.log(2)
+console.log(23)
 
 const config: Config.InitialOptions = {
   ...base,

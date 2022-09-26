@@ -1,6 +1,5 @@
 {
   "build": "cd ../../.. && npx turbo run build --filter=core-dapp",
   "framework": "nextjs",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
   "github": {}
 }

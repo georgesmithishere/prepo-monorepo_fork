@@ -1,4 +1,5 @@
 {
   "framework": "nextjs",
+  "ignoreCommand": "[ \"$VERCEL_ENV\" != production ] || npx turbo-ignore",
   "github": {}
 }

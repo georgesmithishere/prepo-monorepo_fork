@@ -38,6 +38,7 @@ class MyDocument extends Document {
         ),
       }
     } finally {
+      console.log(1)
       sheet.seal()
     }
   }

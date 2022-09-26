@@ -11,6 +11,7 @@
   font-weight: 500;
   font-style: normal;
   font-display: fallback;
+  color: black;
 }
 @font-face {
   font-family: 'Euclid Circular A';

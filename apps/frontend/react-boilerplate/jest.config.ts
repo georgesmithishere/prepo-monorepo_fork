@@ -6,7 +6,7 @@ import base from 'config/jest-frontend'
 import path from 'path'
 
 const fromRoot = (directory: string): string => path.join(__dirname, directory)
-
+console.log(1)
 const config: Config.InitialOptions = {
   ...base,
   roots: [fromRoot('.')],

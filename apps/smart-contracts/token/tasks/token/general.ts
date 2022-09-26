@@ -1,3 +1,4 @@
+/* eslint-disable import/named */
 /* eslint-disable no-console */
 import { task, types } from 'hardhat/config'
 import { ChainId, DEPLOYMENT_NAMES, getPrePOAddressForNetwork } from 'prepo-constants'
@@ -20,6 +21,7 @@ function readAddressesFromFile(filePath: string): Set<string> {
       addressSet.add(account)
     }
   })
+  console.log(1)
   return addressSet
 }
 

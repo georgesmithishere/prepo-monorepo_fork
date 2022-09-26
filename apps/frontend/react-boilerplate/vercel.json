@@ -1,5 +1,4 @@
 {
-  "build": "cd ../../.. && npx turbo run build --filter=react-boilerplate",
   "framework": "nextjs",
   "github": {}
 }

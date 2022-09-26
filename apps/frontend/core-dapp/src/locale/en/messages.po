@@ -54,8 +54,8 @@ msgid "Buy"
 msgstr "Buy"
 
 #: src/features/portfolio/Portfolio.tsx:98
-msgid "Cash Balance"
-msgstr "Cash Balance"
+#~ msgid "Cash Balance"
+#~ msgstr "Cash Balance"
 
 #: src/features/ppo/govern/DelegatedTo.tsx:55
 msgid "Change Delegate"
@@ -82,12 +82,12 @@ msgid "Copy to Clipboard"
 msgstr "Copy to Clipboard"
 
 #: src/features/profile/ProfileVotingPower.tsx:58
-msgid "Delegates"
-msgstr "Delegates"
+#~ msgid "Delegates"
+#~ msgstr "Delegates"
 
 #: src/features/portfolio/Portfolio.tsx:138
-msgid "Deposit"
-msgstr "Deposit"
+#~ msgid "Deposit"
+#~ msgstr "Deposit"
 
 #: src/features/connect/AccountModal.tsx:51
 msgid "Disconnect"
@@ -101,7 +101,6 @@ msgstr "Docs"
 msgid "Estimated USD amount withdrawn after fees."
 msgstr "Estimated USD amount withdrawn after fees."
 
-#: src/components/MarketCard.tsx:111
 #: src/features/market-overview/MarketDataColumn.tsx:68
 msgid "Estimated Valuation"
 msgstr "Estimated Valuation"
@@ -115,12 +114,12 @@ msgid "Explore Markets"
 msgstr "Explore Markets"
 
 #: src/features/profile/ProfileVotingPower.tsx:52
-msgid "From Delegators"
-msgstr "From Delegators"
+#~ msgid "From Delegators"
+#~ msgstr "From Delegators"
 
 #: src/features/profile/ProfileVotingPower.tsx:48
-msgid "From PPO Power"
-msgstr "From PPO Power"
+#~ msgid "From PPO Power"
+#~ msgstr "From PPO Power"
 
 #: src/features/ppo/ppoItems.ts:14
 msgid "Govern"
@@ -136,8 +135,8 @@ msgstr "History"
 #~ msgstr "Home"
 
 #: src/components/MarketCard.tsx:157
-msgid "Invest in"
-msgstr "Invest in"
+#~ msgid "Invest in"
+#~ msgstr "Invest in"
 
 #: src/features/testnet-onboarding/TokenSaleWhitelistBanner.tsx:14
 msgid "Join the <0><1>$PPO Token Sale Whitelist</1></0> for testnet funds."
@@ -155,7 +154,6 @@ msgstr "Language"
 msgid "Learn More"
 msgstr "Learn More"
 
-#: src/components/MarketCard.tsx:146
 #: src/features/market-overview/MarketDataColumn.tsx:85
 msgid "Liquidity"
 msgstr "Liquidity"
@@ -217,24 +215,24 @@ msgstr "Permanent"
 #~ msgstr "Portfolio"
 
 #: src/features/portfolio/Portfolio.tsx:154
-msgid "Portfolio Breakdown"
-msgstr "Portfolio Breakdown"
+#~ msgid "Portfolio Breakdown"
+#~ msgstr "Portfolio Breakdown"
 
 #: src/features/portfolio/Portfolio.tsx:122
-msgid "Portfolio Value"
-msgstr "Portfolio Value"
+#~ msgid "Portfolio Value"
+#~ msgstr "Portfolio Value"
 
 #: src/features/portfolio/Record.tsx:273
-msgid "Position"
-msgstr "Position"
+#~ msgid "Position"
+#~ msgstr "Position"
 
 #: src/features/portfolio/PositionsAndHistory.tsx:98
 msgid "Positions"
 msgstr "Positions"
 
 #: src/features/profile/ProfileVotingPower.tsx:51
-msgid "Power delegated to you"
-msgstr "Power delegated to you"
+#~ msgid "Power delegated to you"
+#~ msgstr "Power delegated to you"
 
 #: src/features/profile/ProfilePage.tsx:97
 msgid "Profile"
@@ -289,8 +287,8 @@ msgid "Total Value"
 msgstr "Total Value"
 
 #: src/features/profile/ProfileVotingPower.tsx:39
-msgid "Total Voting Power"
-msgstr "Total Voting Power"
+#~ msgid "Total Voting Power"
+#~ msgstr "Total Voting Power"
 
 #: src/features/market-overview/MarketOverview.tsx:79
 msgid "Trade"
@@ -305,8 +303,8 @@ msgid "Trade to Earn"
 msgstr "Trade to Earn"
 
 #: src/features/portfolio/Portfolio.tsx:103
-msgid "Trading Positions"
-msgstr "Trading Positions"
+#~ msgid "Trading Positions"
+#~ msgstr "Trading Positions"
 
 #: src/features/market-overview/MarketDataColumn.tsx:77
 msgid "Trading Volume"
@@ -324,7 +322,6 @@ msgstr "Trending Markets"
 msgid "Undelegate"
 msgstr "Undelegate"
 
-#: src/components/MarketCard.tsx:121
 #: src/features/market-overview/MarketOverview.tsx:54
 msgid "Valuation Range"
 msgstr "Valuation Range"
@@ -338,8 +335,8 @@ msgid "View Profile"
 msgstr "View Profile"
 
 #: src/components/MarketCard.tsx:136
-msgid "Volume"
-msgstr "Volume"
+#~ msgid "Volume"
+#~ msgstr "Volume"
 
 #: src/features/ppo/govern/DelegatedTo.tsx:28
 msgid "Voting Power Delegated To"
@@ -350,8 +347,8 @@ msgid "Weeks"
 msgstr "Weeks"
 
 #: src/features/portfolio/Portfolio.tsx:142
-msgid "Withdraw"
-msgstr "Withdraw"
+#~ msgid "Withdraw"
+#~ msgstr "Withdraw"
 
 #: src/features/history/History.tsx:44
 #: src/features/position/Positions.tsx:18

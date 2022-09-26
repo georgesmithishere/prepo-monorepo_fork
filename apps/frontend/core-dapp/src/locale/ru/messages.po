@@ -54,8 +54,8 @@ msgid "Buy"
 msgstr "Купить"
 
 #: src/features/portfolio/Portfolio.tsx:98
-msgid "Cash Balance"
-msgstr "Денежный Баланс"
+#~ msgid "Cash Balance"
+#~ msgstr "Денежный Баланс"
 
 #: src/features/ppo/govern/DelegatedTo.tsx:55
 msgid "Change Delegate"
@@ -82,12 +82,12 @@ msgid "Copy to Clipboard"
 msgstr "Копировать в Буфер"
 
 #: src/features/profile/ProfileVotingPower.tsx:58
-msgid "Delegates"
-msgstr "Деоегаты"
+#~ msgid "Delegates"
+#~ msgstr "Деоегаты"
 
 #: src/features/portfolio/Portfolio.tsx:138
-msgid "Deposit"
-msgstr "Депозит"
+#~ msgid "Deposit"
+#~ msgstr "Депозит"
 
 #: src/features/connect/AccountModal.tsx:51
 msgid "Disconnect"
@@ -101,7 +101,6 @@ msgstr "Документация"
 msgid "Estimated USD amount withdrawn after fees."
 msgstr "Расчетная сумма в долларах США, снятая после уплаты комиссий."
 
-#: src/components/MarketCard.tsx:111
 #: src/features/market-overview/MarketDataColumn.tsx:68
 msgid "Estimated Valuation"
 msgstr "Предполагаемая оценка"
@@ -115,12 +114,12 @@ msgid "Explore Markets"
 msgstr "Исследуйте Рынки"
 
 #: src/features/profile/ProfileVotingPower.tsx:52
-msgid "From Delegators"
-msgstr "От Делегатов"
+#~ msgid "From Delegators"
+#~ msgstr "От Делегатов"
 
 #: src/features/profile/ProfileVotingPower.tsx:48
-msgid "From PPO Power"
-msgstr "От PPO Влияния"
+#~ msgid "From PPO Power"
+#~ msgstr "От PPO Влияния"
 
 #: src/features/ppo/ppoItems.ts:14
 msgid "Govern"
@@ -136,8 +135,8 @@ msgstr "История"
 #~ msgstr "Главная"
 
 #: src/components/MarketCard.tsx:157
-msgid "Invest in"
-msgstr "Инвестируйте в"
+#~ msgid "Invest in"
+#~ msgstr "Инвестируйте в"
 
 #: src/features/testnet-onboarding/TokenSaleWhitelistBanner.tsx:14
 msgid "Join the <0><1>$PPO Token Sale Whitelist</1></0> for testnet funds."
@@ -155,7 +154,6 @@ msgstr "Язык"
 msgid "Learn More"
 msgstr "Узнать Больше"
 
-#: src/components/MarketCard.tsx:146
 #: src/features/market-overview/MarketDataColumn.tsx:85
 msgid "Liquidity"
 msgstr "Ликвидность"
@@ -213,24 +211,24 @@ msgstr "Постоянный"
 #~ msgstr "Портфолио"
 
 #: src/features/portfolio/Portfolio.tsx:154
-msgid "Portfolio Breakdown"
-msgstr "Разбивка Портфолио"
+#~ msgid "Portfolio Breakdown"
+#~ msgstr "Разбивка Портфолио"
 
 #: src/features/portfolio/Portfolio.tsx:122
-msgid "Portfolio Value"
-msgstr "Ценность Портфолио"
+#~ msgid "Portfolio Value"
+#~ msgstr "Ценность Портфолио"
 
 #: src/features/portfolio/Record.tsx:273
-msgid "Position"
-msgstr "Позиция"
+#~ msgid "Position"
+#~ msgstr "Позиция"
 
 #: src/features/portfolio/PositionsAndHistory.tsx:98
 msgid "Positions"
 msgstr "Позиции"
 
 #: src/features/profile/ProfileVotingPower.tsx:51
-msgid "Power delegated to you"
-msgstr "Право голоса передано вам"
+#~ msgid "Power delegated to you"
+#~ msgstr "Право голоса передано вам"
 
 #: src/features/profile/ProfilePage.tsx:97
 msgid "Profile"
@@ -285,8 +283,8 @@ msgid "Total Value"
 msgstr "Полная Оценка"
 
 #: src/features/profile/ProfileVotingPower.tsx:39
-msgid "Total Voting Power"
-msgstr "Общее количество голосов"
+#~ msgid "Total Voting Power"
+#~ msgstr "Общее количество голосов"
 
 #: src/features/market-overview/MarketOverview.tsx:79
 msgid "Trade"
@@ -301,8 +299,8 @@ msgid "Trade to Earn"
 msgstr "Торгуйте чтобы Заработать"
 
 #: src/features/portfolio/Portfolio.tsx:103
-msgid "Trading Positions"
-msgstr "Торгуемые позизции"
+#~ msgid "Trading Positions"
+#~ msgstr "Торгуемые позизции"
 
 #: src/features/market-overview/MarketDataColumn.tsx:77
 msgid "Trading Volume"
@@ -320,7 +318,6 @@ msgstr "Трендовые рынки"
 msgid "Undelegate"
 msgstr "Отменить делегирование"
 
-#: src/components/MarketCard.tsx:121
 #: src/features/market-overview/MarketOverview.tsx:54
 msgid "Valuation Range"
 msgstr "Диапозон оценки"
@@ -334,8 +331,8 @@ msgid "View Profile"
 msgstr "Просмотр Профиля"
 
 #: src/components/MarketCard.tsx:136
-msgid "Volume"
-msgstr "Объём"
+#~ msgid "Volume"
+#~ msgstr "Объём"
 
 #: src/features/ppo/govern/DelegatedTo.tsx:28
 msgid "Voting Power Delegated To"
@@ -346,8 +343,8 @@ msgid "Weeks"
 msgstr "Недели"
 
 #: src/features/portfolio/Portfolio.tsx:142
-msgid "Withdraw"
-msgstr "Вывести"
+#~ msgid "Withdraw"
+#~ msgstr "Вывести"
 
 #: src/features/history/History.tsx:44
 #: src/features/position/Positions.tsx:18

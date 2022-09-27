@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npx turbo run build --filter=react-boilerplate",
+  "buildCommand": "cd ../../../ && npx turbo run build --filter=react-boilerplate",
   "ignoreCommand": "[ \"$VERCEL_ENV\" != production ] || npx turbo-ignore",
   "github": {}
 }

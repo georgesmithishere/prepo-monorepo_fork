@@ -50,7 +50,7 @@ subtask<{ solcVersion: string }>(
     return runSuper()
   }
 )
-console.log(123)
+console.log(1234)
 
 const config: HardhatUserConfig = {
   ...hardhatConfig,
